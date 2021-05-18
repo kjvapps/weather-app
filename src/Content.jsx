@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import axios from "axios";
 import CityResult from "./CityResult";
 import SearchIcon from "@material-ui/icons/Search";
-import { PinDropSharp } from "@material-ui/icons";
 
 function Content() {
   const [city, setCity] = useState("");
