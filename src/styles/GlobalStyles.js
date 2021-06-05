@@ -11,6 +11,10 @@ const GlobalStyles = createGlobalStyle`
     padding: 4rem;
   }
 
+  h3 {
+    font-weight: 500;
+  }
+
   *,
   *::before,
   *::after {

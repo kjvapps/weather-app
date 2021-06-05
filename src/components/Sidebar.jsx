@@ -57,6 +57,10 @@ const LocationStyles = styled.div`
     font-weight: 300;
   }
 
+  p {
+    font-weight: 300;
+  }
+
   span {
     font-weight: 400;
   }
