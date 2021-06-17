@@ -9,6 +9,7 @@ const GlobalStyles = createGlobalStyle`
 
   body {
     padding: 4rem;
+    background-color: #b5d8fe;
   }
 
   h3 {
