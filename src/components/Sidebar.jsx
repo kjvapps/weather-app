@@ -95,6 +95,8 @@ const TempCarousel = styled.div`
 `;
 
 const Sidebar = () => {
+  const time = new Date();
+
   return (
     <SidebarStyled>
       <SidebarHeader>
@@ -105,7 +107,7 @@ const Sidebar = () => {
       <LocationStyles>
         <div>
           <h2>
-            <TiLocationArrowOutline /> New York, USA
+            <TiLocationArrowOutline /> San Diego, USA
           </h2>
           <span>
             <FiSunrise />
@@ -113,7 +115,7 @@ const Sidebar = () => {
           </span>
         </div>
         <div>
-          <p>Today 28 Sept</p>
+          <p>{time.toDateString()}</p>
           <span>
             <FiSunset />
             19:32

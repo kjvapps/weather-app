@@ -24,6 +24,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   :root {
+    --gray: #eeeeee;
     --blue: #5d9ce6;
   }
 `;

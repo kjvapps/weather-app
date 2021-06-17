@@ -13,7 +13,8 @@ const DashboardGrid = styled.div`
   background-color: var(--blue);
   display: grid;
   grid-template-columns: 22.5rem 1fr;
-  height: 80vh;
+  /* height: 80vh; */
+  min-height: 50rem;
 `;
 
 const Dashboard = () => {
