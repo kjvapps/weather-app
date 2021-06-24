@@ -1,14 +1,29 @@
 import React from "react";
+import styled from "styled-components";
 import SettingsSystemDaydreamIcon from "@material-ui/icons/SettingsSystemDaydream";
 
-function Header() {
+const HomePage = styled.div`
+  background-color: white;
+
+  h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 250px;
+  }
+
+  input {
+    margin-right: 10px;
+  }
+`;
+
+const Header = () => {
   return (
-    <header className="navbar">
+    <HomePage>
       <h1>
         Meteor Log <SettingsSystemDaydreamIcon />
       </h1>
-    </header>
+    </HomePage>
   );
-}
+};
 
 export default Header;
