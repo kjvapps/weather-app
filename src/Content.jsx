@@ -65,7 +65,7 @@ function Content() {
 
     axios
       .get(
-        `http://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=${API_KEY}`
+        `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=${API_KEY}`
       )
       .then((res) => {
         let data = res.data;
